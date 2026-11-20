@@ -1,0 +1,19 @@
+{
+  "c0": {"base": "c0", "args": {}},
+  "e19_fi40": {
+    "base": "g3",
+    "args": {
+      "aux_review_mode": true,
+      "aux_filter_mode": true,
+      "aux_fn_mode": true,
+      "aux_conf": 0.25,
+      "aux_iou": 0.4,
+      "aux_add_conf": 0.1,
+      "aux_track_iou": 0.99,
+      "aux_filter_track_iou": 0.99,
+      "aux_fn_track_iou": 0.1,
+      "aux_recovery": 2
+    }
+  },
+  "ocsort": {"base": "c0", "args": {}}
+}

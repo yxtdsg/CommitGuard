@@ -1,0 +1,9 @@
+{
+  "all_detection_hashes_match": true,
+  "segment_rows": 480,
+  "video_rows": 48,
+  "trackshield_events": 0,
+  "g3_alarm_events": 120,
+  "g3_parked_total": 8869,
+  "uncertainty_unit": "paired 30-frame segment after repeat averaging; descriptive only"
+}

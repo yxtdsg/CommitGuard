@@ -1,0 +1,34 @@
+{
+  "experiment": "mot17_additional",
+  "historical_id": "E20",
+  "frozen": true,
+  "videos": ["09", "10", "11", "13"],
+  "repeats": [1, 2],
+  "segments": {"09": 2, "10": 2, "11": 2, "13": 2},
+  "annotations": {
+    "09": "clean2_mot17_09.json",
+    "10": "clean2_mot17_10.json",
+    "11": "clean2_mot17_11.json",
+    "13": "clean2_mot17_13.json"
+  },
+  "segment_length": 30,
+  "attack_local_frames": [6, 7, 8],
+  "groups": [
+    {"method": "c0", "condition": "clean"},
+    {"method": "c0", "condition": "A"},
+    {"method": "g3", "condition": "clean"},
+    {"method": "g3", "condition": "A"},
+    {"method": "e19_fi40", "condition": "clean"},
+    {"method": "e19_fi40", "condition": "A"}
+  ],
+  "paths": {
+    "annotation": "annotations/mot17_additional/{annotation}",
+    "detections": "detections/mot17_additional/det_input_{condition}_{video}_r{rep}.jsonl",
+    "auxiliary_candidates": "auxiliary/mot17_additional/aux_yolov7_1280_{condition}_all.jsonl",
+    "ground_truth": "gt/mot17/MOT17-{video}-FRCNN/gt/gt.txt"
+  },
+  "metrics": ["MOTA", "IDF1", "HOTA", "AssA", "IDP", "IDR", "IDSW", "FP", "FN", "TP", "mean_update_ms"],
+  "image_size": [800, 1440],
+  "frame_rate": 30,
+  "track_eval_version": "1.3.0"
+}

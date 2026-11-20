@@ -1,0 +1,31 @@
+# Local environments and upstream checkouts
+.venv/
+venv/
+external/
+external_inputs/
+datasets/
+
+# Generated runs and evaluation caches
+runs/
+*_runs/
+*.log
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pth.tar
+
+# Python/editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+_tmp/
+*.tmp

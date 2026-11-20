@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "formal_statistics_included": false,
+  "notes": {
+    "E30": "Non-significant sensitivity analyses; not merged into the formal E19/E20/E26 statistics.",
+    "E31": "Clean MOT17 test-sequence timing only; not a defense evaluation.",
+    "E32": "DanceTrack-0014 visualization only; never merged into the four-video E26 statistics."
+  },
+  "files": [
+    {
+      "path": "E30/clean_validation.json",
+      "historical_experiment": "E30",
+      "source": "TIFD_E0-1A/E30/analysis/clean_validation.json",
+      "sha256": "a4e9fbb76b01650520c3dc07c7e5273a4e5e7ccb741c707082308ffcb213cb8b",
+      "bytes": 203
+    },
+    {
+      "path": "E30/lifecycle_summary.csv",
+      "historical_experiment": "E30",
+      "source": "TIFD_E0-1A/E30/analysis/lifecycle_summary.csv",
+      "sha256": "3520aa2fb0e7f3cab29c5ac3a2f868fcefe47af33bfb976706803d7cc07945e2",
+      "bytes": 695
+    },
+    {
+      "path": "E30/macro_summary.csv",
+      "historical_experiment": "E30",
+      "source": "TIFD_E0-1A/E30/analysis/macro_summary.csv",
+      "sha256": "c4322bc625a411c5522b1c7eed80acb69f19b23bfe45cd7cbd49b8834f6d8d73",
+      "bytes": 2812
+    },
+    {
+      "path": "E30/paired_to_final.csv",
+      "historical_experiment": "E30",
+      "source": "TIFD_E0-1A/E30/analysis/paired_to_final.csv",
+      "sha256": "7e9ebcc8681205456894928ddadab63098a20d878b29b9471e9ebbaa1f8cdde7",
+      "bytes": 16765
+    },
+    {
+      "path": "E30/segment_paired_to_final_ci.csv",
+      "historical_experiment": "E30",
+      "source": "TIFD_E0-1A/E30/analysis/segment_paired_to_final_ci.csv",
+      "sha256": "c89ac0cba1a520209c505b6b145ebf345082445f2d2319db739fe8034b8ea428",
+      "bytes": 1329
+    },
+    {
+      "path": "E31/runtime.json",
+      "historical_experiment": "E31",
+      "source": "TIFD_E0-1A/E31/runtime.json",
+      "sha256": "b8f867f072f984ea7e30d59e66e9fda9a9db89c26bdbb200b2c795b7054f2c61",
+      "bytes": 933
+    },
+    {
+      "path": "E32/dancetrack0014_fnf_three_way.pdf",
+      "historical_experiment": "E32",
+      "source": "TIFD_E0-1A/dancetrack_visualizations/dancetrack0014_fnf_three_way.pdf",
+      "sha256": "3322e829d617d858cf9fcbbfb78508f757d4f752064e28e09250f3dd05135f50",
+      "bytes": 186500
+    },
+    {
+      "path": "E32/summary.json",
+      "historical_experiment": "E32",
+      "source": "public sanitized summary",
+      "sha256": "c329dce14a0247ffb280d22231cc49a6226866158408fa4c8556b85e7085de0b",
+      "bytes": 1153
+    }
+  ]
+}

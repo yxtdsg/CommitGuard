@@ -1,0 +1,40 @@
+{
+  "experiment": "dancetrack_main",
+  "historical_id": "E26",
+  "frozen": true,
+  "videos": ["0004", "0005", "0007", "0010"],
+  "repeats": [1, 2, 3],
+  "segments": {"0004": 4, "0005": 4, "0007": 4, "0010": 4},
+  "annotations": {
+    "0004": "clean4_dancetrack0004.json",
+    "0005": "clean4_dancetrack0005.json",
+    "0007": "clean4_dancetrack0007.json",
+    "0010": "clean4_dancetrack0010.json"
+  },
+  "segment_length": 30,
+  "attack_local_frames": [6, 7, 8],
+  "groups": [
+    {"label": "Clean", "method": "c0", "condition": "clean"},
+    {"label": "Attack", "method": "c0", "condition": "A"},
+    {"label": "Attack+Audit", "method": "audit", "condition": "A"},
+    {"label": "Attack+Audit+BG", "method": "g3", "condition": "A"},
+    {"label": "Attack+Audit+CG", "method": "e19_fi40", "condition": "A"}
+  ],
+  "paths": {
+    "annotation": "annotations/dancetrack_main/{annotation}",
+    "detections": "detections/dancetrack_main/det_input_{condition}_{video}_r{rep}.jsonl",
+    "auxiliary_candidates": "auxiliary/dancetrack_main/aux_yolov7_1280_A_all.jsonl",
+    "ground_truth": "gt/dancetrack/dancetrack{video}/gt/gt.txt"
+  },
+  "base": {
+    "track_thresh": 0.5,
+    "det_thresh": 0.6,
+    "match_thresh": 0.8,
+    "min_box_area": 10,
+    "track_buffer": 30
+  },
+  "metrics": ["MOTA", "IDF1", "HOTA", "AssA", "IDSW", "FP", "FN", "TP", "mean_update_ms"],
+  "image_size": [800, 1440],
+  "frame_rate": 20,
+  "track_eval_version": "1.3.0"
+}

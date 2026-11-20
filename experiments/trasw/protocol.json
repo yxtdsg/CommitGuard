@@ -1,0 +1,72 @@
+{
+  "experiment": "E29",
+  "purpose": "Complete official TraSw attack on frozen full-composition replay tensors.",
+  "scope": {
+    "dev_segment_count": 10,
+    "planned_matrix_runs": 120,
+    "execution_segments": "all E14 freeze segments",
+    "execution_repetitions": ["r1", "r2", "r3"],
+    "precompleted_smoke_runs": 0,
+    "authorized_new_runs": 120
+  },
+  "victim": {
+    "arms": {
+      "clean_c0": {"input": "clean", "l1_mode": "off", "l1_intervene": 0, "tracker": "native FnF BYTETracker"},
+      "attack_c0": {"input": "attack", "l1_mode": "off", "l1_intervene": 0, "tracker": "native FnF BYTETracker"},
+      "clean_cg": {"input": "clean", "l1_mode": "fixed8", "l1_intervene": 1, "tracker": "E29Tracker(CommitGuardTracker)"},
+      "attack_cg": {"input": "attack", "l1_mode": "fixed8", "l1_intervene": 1, "tracker": "E29Tracker(CommitGuardTracker)"}
+    },
+    "official_command_template": [
+      "python",
+      "tools/joint_attack_and_track.py",
+      "-f", "exps/example/mot/FnF_attack_yolo_x_mot17.py",
+      "-c", "models/bytetrack_x_mot17.pth.tar",
+      "-b", "1", "-d", "1", "--fp16", "--fuse",
+      "--conf", "0.01", "--nms", "0.7",
+      "--track_thresh", "0.6", "--match_thresh", "0.9", "--min-box-area", "100",
+      "--disable_strict_birth", "--attack_enabled", "0", "--attack_interval", "0",
+      "--max_attack_iter", "30", "--epsilon", "0.01568627450980392",
+      "--alpha", "0.00392156862745098", "--n_frames_per_seq", "30",
+      "--strict_replay", "--replay_seg", "{seg_name}",
+      "--replay_adv_dir", "{tensor_root}", "--val_ann_override", "{annotation}",
+      "--experiment-name", "{run_name}", "--results_root", "{results_root}",
+      "--l1_mode", "{l1_mode}", "--l1_intervene", "{l1_intervene}"
+    ]
+  },
+  "commitguard": {
+    "method": "e19_fi40",
+    "aux_conf": 0.25,
+    "aux_iou": 0.4,
+    "aux_add_conf": 0.1,
+    "aux_track_iou": 0.99,
+    "aux_filter_track_iou": 0.99,
+    "aux_fn_track_iou": 0.1,
+    "aux_recovery": 2,
+    "reid_mode": false
+  },
+  "historical_fnf_source_sha256": {
+    "exps/example/mot/FnF_attack_yolo_x_mot17.py": "919ae15f4ad5b3439f68007807b64686a6b69409f2aebaddfe8fdc4a0db2f298",
+    "tools/joint_attack_and_track.py": "a1f46029b924ab924fc598619b87b1d2dc35c68d79f131381798b7c768e8aa0d",
+    "yolox/core/joint_attacker_and_tracker.py": "8cab3e9ab9e83a43deafc826834e05093ba95a3f13a59e99f1acf79f2dbc6bea",
+    "yolox/tracker/byte_tracker.py": "9919fde305ed473f5cb0d6a49b369fc4aa8bc1035264ce31f747d60fa0837786"
+  },
+  "runtime_source_sha256": {
+    "FNF/exps/example/mot/FnF_attack_yolo_x_mot17.py": "d8994efd969b488c7d5f231d897383bb214399bdd7234e58e4559ecb81544ce7",
+    "FNF/tools/joint_attack_and_track.py": "d63d80580b1029ed6f37b3500c5d549d40139b283f3c3a72b49a48286637f74d",
+    "FNF/yolox/core/joint_attacker_and_tracker.py": "321434937fe3b445365a7c403cb3f39d12908fe368152d82b04a4da9128b0acd",
+    "FNF/yolox/tracker/byte_tracker.py": "ee4796116629880cf9e7e3f05497e10c977db51a3a0bcbeee79f2c2ef1f58d6c",
+    "TRASA/exps/example/mot/yolox_x_mot17_half.py": "9cae96610fbddb4123316f916b99623c2dd2d3223c1381c352cda521901bc66f",
+    "TRASA/yolox/evaluators/mot_evaluator.py": "ed1cacc245e5ce3d0ba7343ea7d519ddde4e49485aa0d22723589d0fabc7b5de",
+    "TRASA/yolox/tracker/byte_tracker.py": "23932c0d379e2c2399342f65fb11d571b52bf766e6fce508a95d66e1ac46d103"
+  },
+  "checkpoint_sha256": {
+    "FNF/models/bytetrack_x_mot17.pth.tar": "e3945f3523fde1e107708aacd64dab0670c34e371d136e54587cac7a50d3cfba",
+    "TRASA/pretrained/bytetrack_x_mot17.pth.tar": "e3945f3523fde1e107708aacd64dab0670c34e371d136e54587cac7a50d3cfba"
+  },
+  "yolov7_weights_sha256": "d1ac3c74eb96a3eec77949c0f37a06bc272756606ff011d9353f7abff4e0c71d",
+  "integrity": {
+    "completion_scope": "FULL_MATRIX_10_SEGMENTS_R1_R3",
+    "serial": "10 attacks -> 20 auxiliary files -> 120 victims -> summary",
+    "resume": "skip only fully validated completion records; never retry until a desired result"
+  }
+}

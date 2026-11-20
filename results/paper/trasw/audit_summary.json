@@ -1,0 +1,19 @@
+{
+  "attack_cg_runs": 30,
+  "runs_with_attack_window_alarm": 12,
+  "run_detection_rate": 0.4,
+  "segments_with_alarm_in_any_rep": 4,
+  "segments_with_alarm_in_all_three_reps": 4,
+  "alarms_before_protocol_attack_start": 0,
+  "alarms_before_first_changed_frame": 0,
+  "alarms_same_as_first_changed_frame": 6,
+  "median_delay_from_first_changed": 3.5,
+  "delay_range_from_first_changed": [
+    0,
+    19
+  ],
+  "clean_cg_runs": 30,
+  "clean_alarm_frames": 0,
+  "clean_aux_review_frames": 0,
+  "interpretation": "Run-level detection means at least one audit ALARM at frame 11 or later. It is reactive evidence from tracker births, not prediction or direct TraSw classification."
+}

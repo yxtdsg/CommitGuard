@@ -1,0 +1,12 @@
+# Frozen replay/evaluation environment tested with Python 3.10.
+# Install the appropriate CUDA build of the same PyTorch version when using a GPU.
+numpy==2.2.6
+scipy==1.15.3
+lap==0.5.13
+cython-bbox==0.1.5
+torch==2.11.0
+trackeval==1.3.0
+matplotlib==3.10.5
+Pillow==11.3.0
+opencv-python==4.11.0.86
+PyYAML==6.0.2

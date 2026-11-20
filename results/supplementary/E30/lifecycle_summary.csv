@@ -1,0 +1,7 @@
+method,condition,segments,trigger_frames,intervention_frames,window_frames,quarantined_parked,quarantined_committed,quarantined_discarded,suspect_parked,suspect_confirmed,suspect_discarded,suspect_expired,fn_recovery_matches,aux_birth_rejected,aux_fn_added,aux_filter_removed,median_confirmation_delay,p90_confirmation_delay,confirmed_with_delay
+e19_fi40,clean,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+e19_fi40,A,30,36,69,135,0,0,0,0,0,0,0,0,4923,1417,19335,,,0
+cg_s2,clean,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+cg_s2,A,30,36,69,135,0,0,0,313,39,229,45,0,4923,1399,19335,1.0,1.0,39
+cg_s3,clean,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0
+cg_s3,A,30,36,69,135,0,0,0,316,9,247,60,0,4923,1387,19335,2.0,2.0,9

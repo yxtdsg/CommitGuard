@@ -1,0 +1,23 @@
+{
+  "experiment": "method_comparison",
+  "historical_id": "E29",
+  "status": "frozen 96-run matrix",
+  "videos": ["09", "10", "11", "13"],
+  "repeats": [1, 2, 3],
+  "segments_per_video": 2,
+  "condition": "A",
+  "attack_local_frames": [6, 7, 8],
+  "methods": ["c0", "a1", "a2", "busca", "ocsort", "bot_sort_noreid", "g3", "e19_fi40"],
+  "base": {"test_conf": 0.01, "nms_thresh": 0.7},
+  "paths": {
+    "annotation": "annotations/clean2_mot17_{video}.json",
+    "detections": "detections/det_input_A_{video}_r{rep}.jsonl",
+    "auxiliary_candidates": "auxiliary/aux_yolov7_1280_A_all.jsonl",
+    "images": "images",
+    "attack_tensors": "tensors/mot17_additional",
+    "attack_tensor_hashes": "tensors/mot17_additional/frozen_tensor_hashes.json",
+    "ground_truth": "gt/MOT17-{video}-FRCNN/gt/gt.txt"
+  },
+  "trackeval_version": "1.3.0",
+  "aggregation": "per-segment metrics; mean over two segments per run; mean over three repeats per video; unweighted four-video macro mean"
+}

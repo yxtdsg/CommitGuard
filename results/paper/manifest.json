@@ -1,0 +1,635 @@
+{
+  "schema": 1,
+  "description": "Curated final paper results; no raw tracks, tensors, caches, or logs.",
+  "scopes": {
+    "E19": {
+      "videos": [
+        "02",
+        "04",
+        "05"
+      ],
+      "repeats": 3
+    },
+    "E20": {
+      "videos": [
+        "09",
+        "10",
+        "11",
+        "13"
+      ],
+      "repeats": 2
+    },
+    "E24": {
+      "role": "OC-SORT and identity/window recovery"
+    },
+    "E26": {
+      "videos": [
+        "0004",
+        "0005",
+        "0007",
+        "0010"
+      ],
+      "segments_per_video": 4,
+      "repeats": 3
+    },
+    "E29": {
+      "roles": [
+        "complete TraSw",
+        "multi-method comparison"
+      ]
+    },
+    "E4_4": {
+      "role": "final detectability figure source only"
+    }
+  },
+  "files": [
+    {
+      "path": "dancetrack_main/audit_equivalence.json",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/E26/analysis/audit_equivalence.json",
+      "sha256": "0cfe1b7b1d5fdb48c00acb90d2c200f24c6c3314e411d0c90f15c0a59be5bc90",
+      "bytes": 4991
+    },
+    {
+      "path": "dancetrack_main/cross_dataset_macro.csv",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/E26/analysis/cross_dataset_macro.csv",
+      "sha256": "5f40781a98bb3a9778f76197b17f0f7881968382e26dc1f78358e646e2637320",
+      "bytes": 1341
+    },
+    {
+      "path": "dancetrack_main/evaluation_checks.json",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/E26/analysis/evaluation_checks.json",
+      "sha256": "0a21a524a2c666f6eb268a77c0e04e6a92827947ec1c879b6fda7cea2ec70965",
+      "bytes": 183
+    },
+    {
+      "path": "dancetrack_main/macro_summary.csv",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/E26/analysis/macro_summary.csv",
+      "sha256": "e61a029f4aed9754a68269e4a4789b49764bee2941b84d88b04944b4216043a2",
+      "bytes": 841
+    },
+    {
+      "path": "dancetrack_main/paper_cross_dataset_macro.csv",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/E26/analysis/paper_cross_dataset_macro.csv",
+      "sha256": "2fbac637625a7259b06184a59ca5c521378b4c0a84fa16666e5fd9d5299bbd73",
+      "bytes": 1315
+    },
+    {
+      "path": "dancetrack_main/runtime_validation.json",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/E26/analysis/runtime_validation.json",
+      "sha256": "a89431d10db6ed2d97da362e838be2fd508ad2ade57a4b9a76a54ac872645976",
+      "bytes": 15918
+    },
+    {
+      "path": "dancetrack_main/segment_metrics.csv",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/E26/analysis/segment_metrics.csv",
+      "sha256": "29c5acb0dce590c0bc917afac5e926fada4d28a3e74b54088ca110eab6f3879f",
+      "bytes": 31414
+    },
+    {
+      "path": "dancetrack_main/video_summary.csv",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/E26/analysis/video_summary.csv",
+      "sha256": "55caf588917fceda402b9c4656cac4820908a26b6b00daee1285ce28ce4fe3df",
+      "bytes": 3015
+    },
+    {
+      "path": "detectability/E4_4_frame_decisions.csv",
+      "historical_experiment": "E4_4",
+      "source": "TIFD_E0-1A/E4_4/E4_4_frame_decisions.csv",
+      "sha256": "b2844767a3619ebe2c1259584bbe79d882d6db0c7a47594c0490e35dd35c4ad2",
+      "bytes": 247100
+    },
+    {
+      "path": "figures/dancetrack/dancetrack0004_fnf_three_way.pdf",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/dancetrack_visualizations/dancetrack0004_fnf_three_way.pdf",
+      "sha256": "5f05081e1b6326e1345ba3e153e5b04e1730f7a4358c857b6723e818e52be208",
+      "bytes": 168168
+    },
+    {
+      "path": "figures/dancetrack/dancetrack0005_fnf_three_way.pdf",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/dancetrack_visualizations/dancetrack0005_fnf_three_way.pdf",
+      "sha256": "f3ea4eadc6c152c34278d891ed83d2756c7ecd3f847a8574dea2609d702b5756",
+      "bytes": 169653
+    },
+    {
+      "path": "figures/dancetrack/dancetrack0007_fnf_three_way.pdf",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/dancetrack_visualizations/dancetrack0007_fnf_three_way.pdf",
+      "sha256": "24fdb81cf624e9327c4c4452f5628abbdc412c6f659c549353bf2fd908d760b3",
+      "bytes": 257329
+    },
+    {
+      "path": "figures/dancetrack/dancetrack0010_fnf_three_way.pdf",
+      "historical_experiment": "E26",
+      "source": "TIFD_E0-1A/dancetrack_visualizations/dancetrack0010_fnf_three_way.pdf",
+      "sha256": "34c2f288db34407afa8be678e624d932b78c7c9470a58cc73070c9830f178ee2",
+      "bytes": 191807
+    },
+    {
+      "path": "figures/fig_CG_full_pipeline.pdf",
+      "historical_experiment": "paper",
+      "source": "TIFD_E0-1A/figures/fig_CG_full_pipeline.pdf",
+      "sha256": "70c042c809e7000170a648549d90c3e9e693c07038badbfe5c8995fed0bb13e3",
+      "bytes": 30685
+    },
+    {
+      "path": "figures/fig_CG_full_pipeline.png",
+      "historical_experiment": "paper",
+      "source": "TIFD_E0-1A/figures/fig_CG_full_pipeline.png",
+      "sha256": "668f995f272db297d6f59ca49af094e0324c5ddf5ad83a3f791242a56482c71c",
+      "bytes": 326919
+    },
+    {
+      "path": "figures/fig_CG_full_results.pdf",
+      "historical_experiment": "paper",
+      "source": "TIFD_E0-1A/figures/fig_CG_full_results.pdf",
+      "sha256": "938a8e3f90bb1c1d097446696619a79184f58287d4d4f2158af82a05418104e0",
+      "bytes": 18800
+    },
+    {
+      "path": "figures/fig_CG_full_results.png",
+      "historical_experiment": "paper",
+      "source": "TIFD_E0-1A/figures/fig_CG_full_results.png",
+      "sha256": "72d49ba7b400646ebd58265cf6f07027d34b8f1a5bd2ca57b42e830030f063b4",
+      "bytes": 123645
+    },
+    {
+      "path": "figures/fig_P2_fnfp_synergy.pdf",
+      "historical_experiment": "paper",
+      "source": "TIFD_E0-1A/figures/fig_P2_fnfp_synergy.pdf",
+      "sha256": "9cd4b50bfc5629aa5c884c184ed6023fa44c5ecc4edc21be412dbc5e2e731862",
+      "bytes": 21343
+    },
+    {
+      "path": "figures/fig_P2_fnfp_synergy.png",
+      "historical_experiment": "paper",
+      "source": "TIFD_E0-1A/figures/fig_P2_fnfp_synergy.png",
+      "sha256": "94a38c5dd5e3990c4d609b3782d6b7386cb8c9af7bdd889db940f4d214e49734",
+      "bytes": 183051
+    },
+    {
+      "path": "figures/fig_R1_detectability.pdf",
+      "historical_experiment": "paper",
+      "source": "TIFD_E0-1A/figures/fig_R1_detectability.pdf",
+      "sha256": "43359a47b291349afb5e043da18bc70d74d67496e275cbcc9bb9727264d88e4d",
+      "bytes": 19870
+    },
+    {
+      "path": "figures/fig_R1_detectability.png",
+      "historical_experiment": "paper",
+      "source": "TIFD_E0-1A/figures/fig_R1_detectability.png",
+      "sha256": "dd28c468ac4b5cd7620d2e35a615b188c1d64229a5af74023a72a23c39a8cf26",
+      "bytes": 94117
+    },
+    {
+      "path": "figures/mot17/MOT17-02_fnf_three_way.pdf",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-02_fnf_three_way.pdf",
+      "sha256": "f846f8b215f86e7d8833002345cfc9dd2b9bca4fdd8cf486dc88ea2c436d0c68",
+      "bytes": 340119
+    },
+    {
+      "path": "figures/mot17/MOT17-02_fnf_three_way.png",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-02_fnf_three_way.png",
+      "sha256": "63dd9a2f60c5421f9f87080edb83bfbd875d74453bb6f964a338fa086732a8b7",
+      "bytes": 753657
+    },
+    {
+      "path": "figures/mot17/MOT17-04_fnf_three_way.pdf",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-04_fnf_three_way.pdf",
+      "sha256": "5814e66347cd7589dd21190d701f880aca8e5070582aebbb4f2c671a5acd8f1a",
+      "bytes": 287844
+    },
+    {
+      "path": "figures/mot17/MOT17-04_fnf_three_way.png",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-04_fnf_three_way.png",
+      "sha256": "301740d3e8b7948f312d9ef9d0084393a0ad72acca8f9a97991209bfc25fa622",
+      "bytes": 819106
+    },
+    {
+      "path": "figures/mot17/MOT17-05_fnf_three_way.pdf",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-05_fnf_three_way.pdf",
+      "sha256": "eb75dd50eb5e6e75105bd44681fb27de91e7b5fdf68ca78be6f72b771e17d3df",
+      "bytes": 275306
+    },
+    {
+      "path": "figures/mot17/MOT17-05_fnf_three_way.png",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-05_fnf_three_way.png",
+      "sha256": "67de15e15837fe3e43f6f02fcd3da4af70de1d82c004c69536e25c3d73e79931",
+      "bytes": 777160
+    },
+    {
+      "path": "figures/mot17/MOT17-09_fnf_three_way.pdf",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-09_fnf_three_way.pdf",
+      "sha256": "116b701d8d8918b66c14dfe286aacf590378e0bed25db3d09226fbf89bf05658",
+      "bytes": 328090
+    },
+    {
+      "path": "figures/mot17/MOT17-09_fnf_three_way.png",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-09_fnf_three_way.png",
+      "sha256": "4aa16e01f5acbc89d58ef01701c86c03c1f92c5e68e1e98d0b3653d7598196a4",
+      "bytes": 841932
+    },
+    {
+      "path": "figures/mot17/MOT17-10_fnf_three_way.pdf",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-10_fnf_three_way.pdf",
+      "sha256": "70b45e8b999b9d14b48acbc83d03fc884d9a13522dedc8b5634499fa96356e0e",
+      "bytes": 247423
+    },
+    {
+      "path": "figures/mot17/MOT17-10_fnf_three_way.png",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-10_fnf_three_way.png",
+      "sha256": "230b7c8e8458daeaeee7ecb3deec71e390b2d63a612b977d76d8d8541a7010e3",
+      "bytes": 585921
+    },
+    {
+      "path": "figures/mot17/MOT17-11_fnf_three_way.pdf",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-11_fnf_three_way.pdf",
+      "sha256": "d0908f013728ee68f0dd2a79b5c8d1891eefaa48050ba64e8c30b47698c88aea",
+      "bytes": 304163
+    },
+    {
+      "path": "figures/mot17/MOT17-11_fnf_three_way.png",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-11_fnf_three_way.png",
+      "sha256": "4c39e9c1bce3220bc8fa2866ef3bcb08f58af086d75813f7a5dc24c750cf5711",
+      "bytes": 749341
+    },
+    {
+      "path": "figures/mot17/MOT17-13_fnf_three_way.pdf",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-13_fnf_three_way.pdf",
+      "sha256": "3d7994355b1616698554cffabdfd62e3099f8e06db8b23579130559f8f4fcc7a",
+      "bytes": 282801
+    },
+    {
+      "path": "figures/mot17/MOT17-13_fnf_three_way.png",
+      "historical_experiment": "E19/E20",
+      "source": "TIFD_E0-1A/mot17_visualizations/MOT17-13_fnf_three_way.png",
+      "sha256": "b173f2d9e7a0eea85fc3a8231bc08e91061924c8c9660638475d8f476e7e9ca8",
+      "bytes": 757442
+    },
+    {
+      "path": "method_comparison/coverage.json",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/coverage.json",
+      "sha256": "5c83e91cdef70bf484a56f166d9ead5e58414ad64987d0bd89439b22c0950d6e",
+      "bytes": 287
+    },
+    {
+      "path": "method_comparison/paper_macro.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/paper_macro.csv",
+      "sha256": "ebc0d85126241b9a51cb5a156885edcd514f17efa777312ab169006793fa2fdc",
+      "bytes": 956
+    },
+    {
+      "path": "method_comparison/run_metrics.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/run_metrics.csv",
+      "sha256": "bb228b4e8533ac8c70ad5468967e922314c346376aaabb5e5f9a70c68b133afa",
+      "bytes": 10040
+    },
+    {
+      "path": "method_comparison/video_summary.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/video_summary.csv",
+      "sha256": "ca428fcf774a45fe3b3d1d01ea5b02e77885d18fbf80630a34913fbb57999ead",
+      "bytes": 3467
+    },
+    {
+      "path": "mot17_additional/aux_runtime.csv",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/aux_runtime.csv",
+      "sha256": "10b55b8344e34fd80b4838043703c27bbaa1c5630c17759964ccc1185a51e1f9",
+      "bytes": 52069
+    },
+    {
+      "path": "mot17_additional/clean_safety.csv",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/analysis/clean_safety.csv",
+      "sha256": "b78f8d1374bd3cfeb200d08134e05c2716f0d4d55eecdf2099c7c489885fee44",
+      "bytes": 183
+    },
+    {
+      "path": "mot17_additional/cost_by_video.csv",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/cost_by_video.csv",
+      "sha256": "45afb11349aed7668924fcc18f91bf3f4ea8e18ba9714f39e54ed63fd6736a55",
+      "bytes": 3567
+    },
+    {
+      "path": "mot17_additional/cost_summary.csv",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/cost_summary.csv",
+      "sha256": "c0184d61d6b10a0331d3ae05fab32f356f5bba80fd98d7b7f87ade2bf123adb2",
+      "bytes": 1034
+    },
+    {
+      "path": "mot17_additional/evaluation_checks.json",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/analysis/evaluation_checks.json",
+      "sha256": "b1d7dd008dd01e981c9d3c1ef96ed8c02781488801b8c2caa1adfecb1b23756b",
+      "bytes": 100
+    },
+    {
+      "path": "mot17_additional/frame_cost.csv",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/frame_cost.csv",
+      "sha256": "df8ad036ec720646e30ac8f65e79c82997ea35350d2cfa30de503a0fe6975fbe",
+      "bytes": 147159
+    },
+    {
+      "path": "mot17_additional/macro_summary.csv",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/analysis/macro_summary.csv",
+      "sha256": "8697ec423d0ebccf9e4b9478b2e4e833e4abe83cb2fbd634460681ff88963e3b",
+      "bytes": 1121
+    },
+    {
+      "path": "mot17_additional/primary_runtime.csv",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/primary_runtime.csv",
+      "sha256": "91df1712c999f3083feb6560ad33d7d0c1ba7a2dd27551d4a7dde02b2591fe6b",
+      "bytes": 96782
+    },
+    {
+      "path": "mot17_additional/segment_metrics.csv",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/analysis/segment_metrics.csv",
+      "sha256": "0ed824986835a0180410dfe48d8181c2436ee3115f28eb408f00ca4ad5d7f104",
+      "bytes": 15436
+    },
+    {
+      "path": "mot17_additional/video_summary.csv",
+      "historical_experiment": "E20",
+      "source": "TIFD_E0-1A/E20/analysis/video_summary.csv",
+      "sha256": "b0c2d221005b8932f27d8bf8e38624b1faa52cfbf4dba5d94557dc2b898c8f48",
+      "bytes": 4210
+    },
+    {
+      "path": "mot17_development/clean_safety.csv",
+      "historical_experiment": "E19",
+      "source": "TIFD_E0-1A/E19/analysis/clean_safety.csv",
+      "sha256": "e6a99ed4a4d470d8bc8c59b4f53d5859bfcf9156d317c3b20084aeb6c7d090c2",
+      "bytes": 641
+    },
+    {
+      "path": "mot17_development/evaluation_checks.json",
+      "historical_experiment": "E19",
+      "source": "TIFD_E0-1A/E19/analysis/evaluation_checks.json",
+      "sha256": "6fd609527aae83c1a9fb40cb9811d66860fa73508fa2e182a4bfa78d9068631d",
+      "bytes": 261
+    },
+    {
+      "path": "mot17_development/g3_intervention_events.csv",
+      "historical_experiment": "E19",
+      "source": "TIFD_E0-1A/E19/analysis/g3_intervention_events.csv",
+      "sha256": "3af6982b96688ec3021a0bb41e44b19c64af42d6644cf9f7257f00159bd3acf1",
+      "bytes": 4832
+    },
+    {
+      "path": "mot17_development/paired_contrasts.csv",
+      "historical_experiment": "E19",
+      "source": "TIFD_E0-1A/E19/analysis/paired_contrasts.csv",
+      "sha256": "10ee41358d0f55c0b021c2c7230ad44b5e4e29d02f59905aaeb8a21b26943d5d",
+      "bytes": 60059
+    },
+    {
+      "path": "mot17_development/paired_metrics.csv",
+      "historical_experiment": "E19",
+      "source": "TIFD_E0-1A/E19/analysis/paired_metrics.csv",
+      "sha256": "5601747370d6f848060eb7cb18118ee5a8a38624583260cdc84477ab2a455b7d",
+      "bytes": 97408
+    },
+    {
+      "path": "mot17_development/runtime_summary.csv",
+      "historical_experiment": "E19",
+      "source": "TIFD_E0-1A/E19/analysis/runtime_summary.csv",
+      "sha256": "02fdda415d40b93b932ec56f3ce9672ed0b494b1baa8bcde5740dff15b46114d",
+      "bytes": 2533
+    },
+    {
+      "path": "mot17_development/trackshield_events.csv",
+      "historical_experiment": "E19",
+      "source": "TIFD_E0-1A/E19/analysis/trackshield_events.csv",
+      "sha256": "fe5a0c0fdd99ae39f89ad806fc3773129a462d9f59e7a413a7d170906eb92a8c",
+      "bytes": 58
+    },
+    {
+      "path": "mot17_development/video_summary.csv",
+      "historical_experiment": "E19",
+      "source": "TIFD_E0-1A/E19/analysis/video_summary.csv",
+      "sha256": "d3b095f51eb7d219992bf2d16be1c3b022ee295af6621df5b10e567d18e8b8fa",
+      "bytes": 11853
+    },
+    {
+      "path": "ocsort_recovery/fp_track_instances.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/fp_track_instances.csv",
+      "sha256": "6fb6f69ab789858ce846247c637c8b52d00a3f2fe072030959f223a293c65dad",
+      "bytes": 360977
+    },
+    {
+      "path": "ocsort_recovery/fp_track_summary.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/fp_track_summary.csv",
+      "sha256": "5fc194245ab99657fbe9555dd83a87c53c9cdc0b0a286310795414183db02297",
+      "bytes": 26740
+    },
+    {
+      "path": "ocsort_recovery/identity_macro_summary.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/identity_macro_summary.csv",
+      "sha256": "294b18e1f9cd39cac6f5aafd71d2c1eab87ea619f863ea04b6a4f0d916f19e37",
+      "bytes": 4767
+    },
+    {
+      "path": "ocsort_recovery/identity_target_recovery.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/identity_target_recovery.csv",
+      "sha256": "d1384576fbe426a9bfe234a77e99271101e6ee83399decc907350fda0d123c28",
+      "bytes": 512253
+    },
+    {
+      "path": "ocsort_recovery/identity_video_summary.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/identity_video_summary.csv",
+      "sha256": "56dbf03181612d867814098bec773b2da1d1e0978215724c84d825d36a26f1a7",
+      "bytes": 8188
+    },
+    {
+      "path": "ocsort_recovery/intervention_summary.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/intervention_summary.csv",
+      "sha256": "7561c5d2765c3cccdcb75d944a2e6f0210b51e016b1e79388f8a595e7ca4822f",
+      "bytes": 11330
+    },
+    {
+      "path": "ocsort_recovery/ocsort_full_macro_summary.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/ocsort_full_macro_summary.csv",
+      "sha256": "0fbaa05364571fb43c23d1304659f41138cfc6df3669da74d358589da0e22dd8",
+      "bytes": 189
+    },
+    {
+      "path": "ocsort_recovery/ocsort_full_segment_metrics.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/ocsort_full_segment_metrics.csv",
+      "sha256": "7caf914505a7a73073bf005d11300bc446e8ff585562cd3d422083144d33a18d",
+      "bytes": 3124
+    },
+    {
+      "path": "ocsort_recovery/ocsort_full_video_summary.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/ocsort_full_video_summary.csv",
+      "sha256": "af11c67f200ba84e25311b89f18694251e878d117b669c53b104e417c376a1bb",
+      "bytes": 417
+    },
+    {
+      "path": "ocsort_recovery/recovery_summary.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/recovery_summary.csv",
+      "sha256": "11c7e9be969853feb6d1cd9ef5a7514e88268ba31e2db2ef5942511731ecc742",
+      "bytes": 10951
+    },
+    {
+      "path": "ocsort_recovery/window_macro_summary.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/window_macro_summary.csv",
+      "sha256": "40b53195ebc91279efa72f633c7b932857d30f6112a57583b1bfc47929a29bbc",
+      "bytes": 8131
+    },
+    {
+      "path": "ocsort_recovery/window_segment_metrics.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/window_segment_metrics.csv",
+      "sha256": "59b7ffae8ce01c2374c5f54934d0731a5364835c60f69508a21128366c58aa57",
+      "bytes": 161133
+    },
+    {
+      "path": "ocsort_recovery/window_video_summary.csv",
+      "historical_experiment": "E24",
+      "source": "TIFD_E0-1A/E24/analysis/window_video_summary.csv",
+      "sha256": "7b36601b89230e28678f3508bd8440700e68b944360e8e27560eea8e2157760f",
+      "bytes": 25945
+    },
+    {
+      "path": "trasw/audit_summary.json",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/audit_summary.json",
+      "sha256": "574d06a662a98154adab843d01230e910d335fbc438cc2f746a2538271054fb0",
+      "bytes": 695
+    },
+    {
+      "path": "trasw/audit_timing.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/audit_timing.csv",
+      "sha256": "fdcf0d7ffccc49fe28d2a6275ce1e913f4ecada4fa242fd3063caa4ed9f9bec0",
+      "bytes": 1590
+    },
+    {
+      "path": "trasw/clean_regression.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/clean_regression.csv",
+      "sha256": "857b3669d49b509a3787711d5689bec28352a2bc471bb35a75681d4475267347",
+      "bytes": 4949
+    },
+    {
+      "path": "trasw/evaluation_checks.json",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/evaluation_checks.json",
+      "sha256": "f9d4df5d8834cfda53bce7c1323d1dddc045bbfc886bbfbe079d1075cbdcca26",
+      "bytes": 209
+    },
+    {
+      "path": "trasw/identity_macro_summary.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/identity_macro_summary.csv",
+      "sha256": "c5244382a5d7fd590e442438c2647987f66f19ad0d7572145cd9f61385076ebc",
+      "bytes": 1223
+    },
+    {
+      "path": "trasw/identity_paired_summary.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/identity_paired_summary.csv",
+      "sha256": "f833112920153c6ce0fc9159ac10e7a564fd0c46db7ead8811d62f4b000173ee",
+      "bytes": 623
+    },
+    {
+      "path": "trasw/identity_paired_targets.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/identity_paired_targets.csv",
+      "sha256": "95fe6642be5b5642f199c926e3b141d7771f166238d147c5d45cab4d6a1db41f",
+      "bytes": 32220
+    },
+    {
+      "path": "trasw/identity_targets.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/identity_targets.csv",
+      "sha256": "99b885415373b056b9c8d1b3e8e7efade047cb40f55f282030ca552e2c6f30de",
+      "bytes": 200627
+    },
+    {
+      "path": "trasw/identity_video_summary.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/identity_video_summary.csv",
+      "sha256": "ea28966467500fd6a106304dc4aab2e015268b05171412fd3d23b0fb775f1b14",
+      "bytes": 1355
+    },
+    {
+      "path": "trasw/macro_summary.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/macro_summary.csv",
+      "sha256": "b41ff6f40d531fa6f10a1180bce24d72321a89761a74016bc0b121c3553050f3",
+      "bytes": 988
+    },
+    {
+      "path": "trasw/paired_effects.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/paired_effects.csv",
+      "sha256": "1ca269fcbda87e3e306067ca38aa70fd544bdbaff99f9ecd8171fe2e3f7d3871",
+      "bytes": 3309
+    },
+    {
+      "path": "trasw/result_summary.json",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/result_summary.json",
+      "sha256": "cefd8863509668f3e3f16df30d42fc902b153b1d9d584962d1f354dddcaa7a0c",
+      "bytes": 3318
+    },
+    {
+      "path": "trasw/segment_metrics.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/segment_metrics.csv",
+      "sha256": "d654aeeb87de5f9e962b5bee370b559fc50dd52add922f13a88a4354914d3d63",
+      "bytes": 22221
+    },
+    {
+      "path": "trasw/video_summary.csv",
+      "historical_experiment": "E29",
+      "source": "TIFD_E0-1A/E29/analysis/video_summary.csv",
+      "sha256": "51a7a12ee7bff542a498662663e45bc338e890b67847c0303f82bd60445d5051",
+      "bytes": 2597
+    }
+  ]
+}

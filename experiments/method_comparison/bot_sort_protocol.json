@@ -1,0 +1,45 @@
+{
+  "experiment": "E29 BoT-SORT noReID comparison adapter",
+  "frozen": true,
+  "repeats": [1, 2, 3],
+  "segment_length": 30,
+  "attack_local_frames": [6, 7, 8],
+  "videos": {
+    "09": {"segments": 2, "annotation": "annotations/clean2_mot17_09.json", "detection_template": "detections/det_input_{condition}_09_r{rep}.jsonl", "frozen_root": "tensors/mot17_additional", "frozen_hashes": "tensors/mot17_additional/frozen_tensor_hashes.json", "aux_template": "auxiliary/aux_yolov7_1280_{condition}_all.jsonl", "byte_buffer": 30},
+    "10": {"segments": 2, "annotation": "annotations/clean2_mot17_10.json", "detection_template": "detections/det_input_{condition}_10_r{rep}.jsonl", "frozen_root": "tensors/mot17_additional", "frozen_hashes": "tensors/mot17_additional/frozen_tensor_hashes.json", "aux_template": "auxiliary/aux_yolov7_1280_{condition}_all.jsonl", "byte_buffer": 30},
+    "11": {"segments": 2, "annotation": "annotations/clean2_mot17_11.json", "detection_template": "detections/det_input_{condition}_11_r{rep}.jsonl", "frozen_root": "tensors/mot17_additional", "frozen_hashes": "tensors/mot17_additional/frozen_tensor_hashes.json", "aux_template": "auxiliary/aux_yolov7_1280_{condition}_all.jsonl", "byte_buffer": 30},
+    "13": {"segments": 2, "annotation": "annotations/clean2_mot17_13.json", "detection_template": "detections/det_input_{condition}_13_r{rep}.jsonl", "frozen_root": "tensors/mot17_additional", "frozen_hashes": "tensors/mot17_additional/frozen_tensor_hashes.json", "aux_template": "auxiliary/aux_yolov7_1280_{condition}_all.jsonl", "byte_buffer": 30}
+  },
+  "image_root": "images",
+  "image_size": [800, 1440],
+  "bot_sort": {
+    "track_high_thresh": 0.6,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.7,
+    "match_thresh": 0.8,
+    "track_buffer": 30,
+    "proximity_thresh": 0.5,
+    "appearance_thresh": 0.25,
+    "with_reid": false,
+    "cmc_method": "sparseOptFlow",
+    "mot20": false,
+    "min_box_area": 10,
+    "frame_rate": 30,
+    "frame_contract": "800x1440 RGB uint8 reconstructed from the same normalized model input as the original BoT-SORT caller"
+  },
+  "cg": {
+    "aux_review_mode": true,
+    "aux_filter_mode": true,
+    "aux_fn_mode": true,
+    "aux_conf": 0.25,
+    "aux_iou": 0.4,
+    "aux_add_conf": 0.1,
+    "aux_track_iou": 0.99,
+    "aux_filter_track_iou": 0.99,
+    "aux_fn_track_iou": 0.1,
+    "aux_recovery": 2,
+    "review_trigger": "alarm"
+  },
+  "aggregation": "TrackEval per 30-frame segment; arithmetic mean over segments and repetitions within each video, then arithmetic macro mean over four videos",
+  "metrics": ["MOTA", "IDF1", "HOTA", "IDSW", "FN", "FP"]
+}

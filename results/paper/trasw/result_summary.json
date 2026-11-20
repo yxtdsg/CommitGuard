@@ -1,0 +1,64 @@
+{
+  "experiment": "E29",
+  "threat": "Complete official TraSw single-target identity-switch attack (attack=single, method=ids, attack_id=-1), followed by full-candidate composition and strict pixel-tensor replay",
+  "scope": "MOT17 development only: 02/04/05; 10 frozen 30-frame segments; clean/attack x C0/CG x three repetitions",
+  "runs": {
+    "planned": 120,
+    "completed_and_validated": 120,
+    "failed": 0,
+    "real_yolox_forward_per_run": 30,
+    "strict_replay_per_run": 30,
+    "valid_attack_segments": 10,
+    "valid_aux_files": 20,
+    "changed_attack_frames": 165
+  },
+  "macro_metrics": {
+    "clean_c0": {"IDF1": 0.8858062457, "HOTA": 0.7458318762, "AssA": 0.7839814728, "MOTA": 0.8274492305, "IDSW": 3.2, "FP": 17.0, "FN": 138.0666666667},
+    "attack_c0": {"IDF1": 0.7736605249, "HOTA": 0.6450808846, "AssA": 0.6773803643, "MOTA": 0.6787252010, "IDSW": 13.9, "FP": 100.7, "FN": 187.5333333333},
+    "attack_cg": {"IDF1": 0.7728234951, "HOTA": 0.6434143029, "AssA": 0.6725133013, "MOTA": 0.6894198177, "IDSW": 12.0333333333, "FP": 83.9, "FN": 198.0333333333},
+    "clean_cg": {"IDF1": 0.8861408546, "HOTA": 0.7461572646, "AssA": 0.7845230591, "MOTA": 0.8280832261, "IDSW": 3.2, "FP": 16.6, "FN": 137.8}
+  },
+  "attack_defense_cg_minus_c0": {
+    "IDF1_pp": -0.0837029780,
+    "HOTA_pp": -0.1666581724,
+    "AssA_pp": -0.4867062986,
+    "MOTA_pp": 1.0694616667,
+    "IDSW": -1.8666666667,
+    "FP": -16.8,
+    "FN": 10.5,
+    "IDP_pp": 1.4061981239,
+    "IDR_pp": -1.1451008733
+  },
+  "attack_damage_c0_minus_clean_c0": {
+    "IDF1_pp": -11.2145720721,
+    "HOTA_pp": -10.0750991512,
+    "AssA_pp": -10.6601108560,
+    "MOTA_pp": -14.8724029476,
+    "IDSW": 10.7,
+    "FP": 83.7,
+    "FN": 49.4666666667
+  },
+  "per_video_attack_defense": {
+    "02": {"IDF1_pp": -0.3916840499, "HOTA_pp": -0.4468488518, "MOTA_pp": 1.2214016776, "IDSW": -3.1111111111, "FP": -26.6666666667, "FN": 17.4444444444},
+    "04": {"IDF1_pp": -0.0065597137, "HOTA_pp": 0.0030373728, "MOTA_pp": -0.0118119537, "IDSW": 0.0, "FP": 0.0, "FN": 0.1666666667},
+    "05": {"IDF1_pp": 0.7630969733, "HOTA_pp": 0.5042183202, "MOTA_pp": 1.6949152542, "IDSW": 0.0, "FP": -4.0, "FN": 0.0}
+  },
+  "clean_behavior": {
+    "clean_cg_runs": 30,
+    "alarm_frames": 0,
+    "aux_review_frames": 0,
+    "macro_IDF1_change_pp": 0.0334608927,
+    "macro_HOTA_change_pp": 0.0325388439,
+    "byte_identical_c0_cg_runs": 5,
+    "clean_c0_segments_with_all_three_repeat_hashes_identical": 0,
+    "clean_cg_segments_with_all_three_repeat_hashes_identical": 1,
+    "interpretation": "No clean audit/auxiliary intervention was observed. Independent real-GPU-forward runs are not bitwise deterministic even within clean C0, so cross-process byte differences are not attributable to CG. Metric averages over the three repetitions are reported instead."
+  },
+  "conclusion": {
+    "overall_IDF1_or_HOTA_defense_supported": false,
+    "partial_MOTA_FP_IDSW_benefit_observed": true,
+    "tradeoff": "CG increases precision and MOTA and reduces FP/IDSW, but decreases recall and increases FN; the macro IDF1/HOTA changes are slightly negative.",
+    "not_restored_to_clean": true,
+    "valid_claim_scope": "These are complete-TraSw development results, not evidence of universal defense, adaptive-attack robustness, or additional-video generalization."
+  }
+}

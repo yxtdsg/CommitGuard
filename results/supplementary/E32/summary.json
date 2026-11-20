@@ -1,0 +1,25 @@
+{
+  "historical_experiment": "E32",
+  "role": "Supplementary DanceTrack-0014 visualization only",
+  "formal_statistics_included": false,
+  "excluded_from": "E26 four-video macro statistics",
+  "video": "0014",
+  "repetitions": [1],
+  "segments": ["dancetrack0014-000", "dancetrack0014-001"],
+  "segment_length": 30,
+  "attack_local_frames": [6, 7, 8],
+  "tracker": "unchanged final E26 e19_fi40",
+  "input_provenance": "E11 frozen PreCommit detections and held-out frozen tensors",
+  "detections": {
+    "clean_r1": {"records": 60, "sha256": "5f9553fce08b4430f57f58be302d7a52f99145d7f09914e7ea199e8e629859b1"},
+    "attack_r1": {"records": 60, "sha256": "479a56effcdce5845c85d574c95301cd4440d45b3d2404206809c437927283d5"}
+  },
+  "auxiliary_candidates": {
+    "condition": "A",
+    "reviewed_frames": 50,
+    "sha256": "ec88466f5bd268e4da171a2b33be7623379ab2084734fc4ccb5b35845168d643"
+  },
+  "yolov7_weights_sha256": "d1ac3c74eb96a3eec77949c0f37a06bc272756606ff011d9353f7abff4e0c71d",
+  "raw_tracks_redistributed": false,
+  "note": "No independent E32 metric summary is claimed; only the final visualization and sanitized input lineage are included."
+}

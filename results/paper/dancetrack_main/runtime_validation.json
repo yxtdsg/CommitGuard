@@ -1,0 +1,549 @@
+{
+  "runs": 60,
+  "paired_inputs": 24,
+  "cg_full_review_frames": 192,
+  "cg_filtered_detections": 3998,
+  "cg_added_detections": 495,
+  "details": [
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 1,
+      "method": "c0",
+      "runtime_sha256": "02efdc2f639f3bf03f2d43915023004669b2920145d2a1f30d84d113d95be020"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 1,
+      "method": "c0",
+      "runtime_sha256": "7f0f4aedcf5d70491748a1513044d3f86eedd6fb2b406a9d1d9864b99da1f2ca"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 1,
+      "method": "audit",
+      "runtime_sha256": "5513667e223e8c6d30c9531f1129a7706dcc91f0da8a95a9ab2238ffaac151e8"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 1,
+      "method": "g3",
+      "runtime_sha256": "4dfc0b37ca8711d2119c96ac4da59ba7ea419898d08ab2071428c2b4bb5dc20b"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 276,
+      "aux_fn_added": 50,
+      "video": "0004",
+      "rep": 1,
+      "method": "e19_fi40",
+      "runtime_sha256": "6251b76b4a8978891c3bcf60e4eb0306d53e920fd84faddcae5507dc2b72375d"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 2,
+      "method": "c0",
+      "runtime_sha256": "1d24e8cd59c33811361cae91494c64e54328f0c191c0ad8720b87cfe8d794995"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 2,
+      "method": "c0",
+      "runtime_sha256": "624e8238e9071527c9ea93a9ce7a1b74506844ff8676bda93f71e531958de079"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 2,
+      "method": "audit",
+      "runtime_sha256": "4752e00333542be0fe672a20b69ac38edaf48753ddf87aeda1f9ed0afea5bc21"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 2,
+      "method": "g3",
+      "runtime_sha256": "709d0d0ff508db6d70cb554db17833ee61eb5740cefb233c352c6f815c4cd023"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 276,
+      "aux_fn_added": 50,
+      "video": "0004",
+      "rep": 2,
+      "method": "e19_fi40",
+      "runtime_sha256": "fb975ac94b05fe090fa1a8a66b60a71dfd96dd39cae63299d4f6004f4e8d7a00"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 3,
+      "method": "c0",
+      "runtime_sha256": "d175c08e7e2faf6b39709581b1239ea6e9a5bda3cd0c8e0a1474d9fdd078290c"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 3,
+      "method": "c0",
+      "runtime_sha256": "43093c6b4c86ad1384ebed43f51dc8b2ed8b76d7694f7965f81d16e8ed88ad3a"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 3,
+      "method": "audit",
+      "runtime_sha256": "a79a4901bed9273fab6f0f034029bd7f11d0b707e3cf2dddcdc1b3708dc5b353"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0004",
+      "rep": 3,
+      "method": "g3",
+      "runtime_sha256": "58f02e67e281ed390192c55501c20f4d19b3d425fe660b5af16b0f02221e4636"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 275,
+      "aux_fn_added": 50,
+      "video": "0004",
+      "rep": 3,
+      "method": "e19_fi40",
+      "runtime_sha256": "d46466997f1323778fc1930d8609abece42fb0572aec8b1823eaf3dd8a628e13"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 1,
+      "method": "c0",
+      "runtime_sha256": "3ae2e7cd1679092be3867def3b6d2cfc99ce7d6c21d8be819cc876a4b36104b3"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 1,
+      "method": "c0",
+      "runtime_sha256": "33b708748ae983f96f997fc44d6411ec597c57bac3215b659505f55b28defa59"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 1,
+      "method": "audit",
+      "runtime_sha256": "83eed41ccd0b61d707958de753732894ee7e04495f784e731711faac3590eea2"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 1,
+      "method": "g3",
+      "runtime_sha256": "2ff3789fed1a76974edb40a5b495fc1082e14e21c09311bae0093e005ac7609e"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 223,
+      "aux_fn_added": 29,
+      "video": "0005",
+      "rep": 1,
+      "method": "e19_fi40",
+      "runtime_sha256": "544f8913ea63a99bbb484913c87160eaf59cb986ddf0d2d70996b7d7279e8ca3"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 2,
+      "method": "c0",
+      "runtime_sha256": "1deeb99a7b90de8bd6d826a295151b4a8de1307959f6da8839e18abb79ea1088"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 2,
+      "method": "c0",
+      "runtime_sha256": "d58a7a8d8c5affced249dda779c9e3dc9a5de2fbe2836ca477cd352aaa3bb382"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 2,
+      "method": "audit",
+      "runtime_sha256": "a0f38f6758e25b877b0eaef610e668817237d1bf57cd6fa5f321e60d3d0f14f7"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 2,
+      "method": "g3",
+      "runtime_sha256": "531a1fa06fb062a87016a990bf2ccb20356a9a0e737288c9ebf848d31c92dba6"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 223,
+      "aux_fn_added": 29,
+      "video": "0005",
+      "rep": 2,
+      "method": "e19_fi40",
+      "runtime_sha256": "53a3f6796cf858aaacb398d7b6a51cc7e77ace464d6267798cdc7447a4616bd2"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 3,
+      "method": "c0",
+      "runtime_sha256": "2ef0cf1c16141a891a06e71b21c24d1e017006f36df961ad364ca477db16e91b"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 3,
+      "method": "c0",
+      "runtime_sha256": "1cb7edae84420a160fbd46f42f6fdee8e3890767f28294e823001733fac2eaaf"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 3,
+      "method": "audit",
+      "runtime_sha256": "67552b0eb0a16c69bf8874450a43baf4cb722a1b60e6d5656538334458083412"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0005",
+      "rep": 3,
+      "method": "g3",
+      "runtime_sha256": "ae4f9c6d535c0c085f84903beab8bc064a47b4457f468952706554634afbec62"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 223,
+      "aux_fn_added": 29,
+      "video": "0005",
+      "rep": 3,
+      "method": "e19_fi40",
+      "runtime_sha256": "a2f250f648f09f322d8efae95a9f75176a62495e0c157eb740a1fcfd3194b4f2"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 1,
+      "method": "c0",
+      "runtime_sha256": "da15ac7a08b8c21d5fe494c9c944ec39790e7c1643be67bacbf18023354a3b84"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 1,
+      "method": "c0",
+      "runtime_sha256": "caf2bf0dc5b3e00ab446cfaf8af0be6094ed0689ffcac14e23fd853d0e30519d"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 1,
+      "method": "audit",
+      "runtime_sha256": "4d4bb611be9c7ea988788765cdd6fc1bec143002041ad1befdb891da6ae14bbd"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 1,
+      "method": "g3",
+      "runtime_sha256": "4c9eca3f2839c1924843e24ee95808a2bde75dfc944d9f0af92d5bc3475eb294"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 451,
+      "aux_fn_added": 54,
+      "video": "0007",
+      "rep": 1,
+      "method": "e19_fi40",
+      "runtime_sha256": "ebb9fcb4923129e94f9b648fea9fc23c81a1f66e3f0bec0e1262f97cab871c62"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 2,
+      "method": "c0",
+      "runtime_sha256": "ef37baf79ffe176561e36044aefb46c91871448f94859e54d43b3fad29789d21"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 2,
+      "method": "c0",
+      "runtime_sha256": "4075cd3b9c43e2cc92950c41ffc20d38e5058285604f2ee85cc479c1ccc32d22"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 2,
+      "method": "audit",
+      "runtime_sha256": "c4deb9cb7e39182b7a0e09229c1bc1f39621a0913ec768e7b40b92062d6d7df2"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 2,
+      "method": "g3",
+      "runtime_sha256": "93aa86281633ccd421d708d6de1945cdba0164a69a74b0df1d995a2bdba42f7b"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 451,
+      "aux_fn_added": 54,
+      "video": "0007",
+      "rep": 2,
+      "method": "e19_fi40",
+      "runtime_sha256": "b4943631fd357ca93e77268d58f21ba6e63244e70fb67e18af486041fddd19f7"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 3,
+      "method": "c0",
+      "runtime_sha256": "91766700c428c3c55928597631476758af5e62391482c57fed66f3024aabcd2e"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 3,
+      "method": "c0",
+      "runtime_sha256": "f1584e2dd12dd3bb41f57a16d168725a9fcb5f72b7bb0a98d34a697a6569b758"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 3,
+      "method": "audit",
+      "runtime_sha256": "a040265468f60c7848cc1ec5c79bee60d1a99862fd46241eb126b946e361f049"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0007",
+      "rep": 3,
+      "method": "g3",
+      "runtime_sha256": "da26ab3d771839d29e5a5e019e97eb5deb89d7f55a86a1ef66d074d58eec6f34"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 451,
+      "aux_fn_added": 54,
+      "video": "0007",
+      "rep": 3,
+      "method": "e19_fi40",
+      "runtime_sha256": "7a893c71b2ba43a416fcf5f29fc2469173c16ef7bf22d4c5c67adb4d8991670b"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 1,
+      "method": "c0",
+      "runtime_sha256": "d8433b82d612adfb124967bb0f2ca4c112922707fb233ffd7d1d58eaa4880087"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 1,
+      "method": "c0",
+      "runtime_sha256": "464ebdad69c0a93622871cbf905f6e313f48f132a2465f6ab63a547bbca7e772"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 1,
+      "method": "audit",
+      "runtime_sha256": "59ddc608d399a4c58709dd9a9d5274fe3130413db6de05fb801c084f9bf992f7"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 1,
+      "method": "g3",
+      "runtime_sha256": "610d86652d29b13ed981f50c0341dfe15312598628e4677fa5e08776ac7f6ac4"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 383,
+      "aux_fn_added": 32,
+      "video": "0010",
+      "rep": 1,
+      "method": "e19_fi40",
+      "runtime_sha256": "6ac260cfb5a54517f2195adc4378c6d910bcbcace840b3fc8d47a3fb13a92773"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 2,
+      "method": "c0",
+      "runtime_sha256": "3a40aec3a7c71e567ca245220879c10fa2b1ba3aaa251c6a1acf25cda7f8b935"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 2,
+      "method": "c0",
+      "runtime_sha256": "2395f061230bba6c97a51865ac778ebc40a5bdde1eb3faaacdc62e3aef8cc7ec"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 2,
+      "method": "audit",
+      "runtime_sha256": "97c79e18bf224032f8bdc670687e4af789d8771660d8ac75f9699ffc5bf36ce9"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 2,
+      "method": "g3",
+      "runtime_sha256": "34cac5d957675a2595b299ece62cbe035f603be932fa0ec92fa362866da5abbf"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 383,
+      "aux_fn_added": 32,
+      "video": "0010",
+      "rep": 2,
+      "method": "e19_fi40",
+      "runtime_sha256": "8af3296cc1a5976b6e50fd1509d66b36cf605cf15c8eaf3b44fc4c69840e99ae"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 3,
+      "method": "c0",
+      "runtime_sha256": "ea3ac2874c414911b4a225690069a150fcce67a1a69bcffe76e2396b718a3264"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 3,
+      "method": "c0",
+      "runtime_sha256": "93d39175e2cd160b473bd4c2d6c0c41f05bf88383be802b07f73d021080f7015"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 3,
+      "method": "audit",
+      "runtime_sha256": "c74fe913edfc75f78175dfb2afda66a429c659fedd2f96e783afe97fb07d7d4c"
+    },
+    {
+      "aux_review_frames": 0,
+      "aux_filter_removed": 0,
+      "aux_fn_added": 0,
+      "video": "0010",
+      "rep": 3,
+      "method": "g3",
+      "runtime_sha256": "1d21adf4ded689fbeda11b34f1744bd0267acd3eb5f8d926d942d0c1cd4f9db5"
+    },
+    {
+      "aux_review_frames": 16,
+      "aux_filter_removed": 383,
+      "aux_fn_added": 32,
+      "video": "0010",
+      "rep": 3,
+      "method": "e19_fi40",
+      "runtime_sha256": "8386dc6b33a0a1d82e85c34a2d5d4ada3857372d0c93a425a786990c2ce93392"
+    }
+  ]
+}

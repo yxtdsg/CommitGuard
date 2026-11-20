@@ -1,0 +1,44 @@
+{
+  "experiment": "ocsort_recovery",
+  "historical_id": "E24",
+  "frozen": true,
+  "threshold_search": false,
+  "source": {
+    "repository": "https://github.com/noahcao/OC_SORT",
+    "commit": "5d9b940e259ecc801156b4b05b378ec1fc4ad04d"
+  },
+  "configuration": {
+    "det_thresh": 0.6,
+    "max_age": 30,
+    "min_hits": 3,
+    "iou_threshold": 0.3,
+    "delta_t": 3,
+    "asso_func": "iou",
+    "inertia": 0.2,
+    "use_byte": false,
+    "min_box_area": 100,
+    "aspect_ratio_thresh": 1.6
+  },
+  "scopes": {
+    "development": {"videos": {"02": 6, "04": 2, "05": 2}, "repeats": [1, 2, 3]},
+    "additional": {"videos": {"09": 2, "10": 2, "11": 2, "13": 2}, "repeats": [1, 2]}
+  },
+  "annotations": {
+    "02": "clean6_mot17_02_seg000_005.json",
+    "04": "clean2_mot17_04.json",
+    "05": "clean2_mot17_05.json",
+    "09": "clean2_mot17_09.json",
+    "10": "clean2_mot17_10.json",
+    "11": "clean2_mot17_11.json",
+    "13": "clean2_mot17_13.json"
+  },
+  "conditions": ["clean", "B", "A", "C"],
+  "attack_frames": [6, 7, 8],
+  "recovery_frames": [9, 30],
+  "paths": {
+    "annotation": "annotations/ocsort_recovery/{annotation}",
+    "detections": "detections/ocsort_recovery/det_input_{condition}_{video}_r{rep}.jsonl",
+    "auxiliary_candidates": "auxiliary/ocsort_recovery/aux_yolov7_1280_{condition}_all.jsonl",
+    "ground_truth": "gt/mot17/MOT17-{video}-FRCNN/gt/gt.txt"
+  }
+}

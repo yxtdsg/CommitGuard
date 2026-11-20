@@ -1,0 +1,9 @@
+{
+  "segment_rows": 240,
+  "expected_segment_rows": 240,
+  "video_rows": 20,
+  "expected_video_rows": 20,
+  "macro_rows": 5,
+  "run_manifest_rows": 60,
+  "expected_runs": 60
+}

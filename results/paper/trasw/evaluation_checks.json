@@ -1,0 +1,10 @@
+{
+  "segments": 10,
+  "segment_rows": 120,
+  "expected_segment_rows": 120,
+  "video_rows": 12,
+  "macro_rows": 4,
+  "clean_runs": 30,
+  "clean_byte_identical_runs": 5,
+  "attack_changed_frames": 165
+}

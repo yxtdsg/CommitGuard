@@ -1,0 +1,13 @@
+{
+  "expected_runs": 96,
+  "valid_runs": 96,
+  "missing_runs": [],
+  "invalid_runs": [],
+  "expected_segments": 192,
+  "valid_segments": 192,
+  "evaluated_segments": 192,
+  "run_metrics_rows": 96,
+  "evaluation_errors": [],
+  "complete": true,
+  "paper_macro_written": true
+}

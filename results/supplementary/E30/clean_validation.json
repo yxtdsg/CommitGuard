@@ -1,0 +1,12 @@
+[
+  {
+    "method": "cg_s2",
+    "compared_segments": 30,
+    "byte_identical_to_final": 30
+  },
+  {
+    "method": "cg_s3",
+    "compared_segments": 30,
+    "byte_identical_to_final": 30
+  }
+]
